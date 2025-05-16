@@ -53,6 +53,10 @@
   nav ul li a:hover {
     color: #F28C28;
   }
+
+    #about h2{
+    text-align: center;
+  }
   /* Mobile Nav */
   .menu-toggle {
     display: none;
