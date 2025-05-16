@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Arun Offset Printers</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Merriweather&family=Roboto&display=swap" rel="stylesheet" />
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/9fc6410222.js" crossorigin="anonymous"></script>
+<!-- CSS -->
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <div class="logo">Arun Offset</div>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="hero">
+    <h1>Quality Print Solutions, Delivered Fast</h1>
+    <p>Design | Print | Manage — All Under One Roof</p>
+    <button class="btn-primary" onclick="scrollToSection('contact')">Contact Us</button>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Since 1988, Arun Offset has been the creative powerhouse behind some of Madurai’s finest print solutions. Based at 19-B, Rajangam Street, Anna Main Street, Bethaniyapuram, we specialize in expert Offset Printing, Screen Printing, DTP services, Binding, Business Card Design, and eye-catching Banners & Poster printing.
+    </p>
+    <p>
+      At Arun Offset, we focus on flawless design and project management, working with top industry partners to ensure every print job meets the highest standards of quality and precision. Our decades of experience allow us to bring your ideas to life efficiently and with impeccable detail.
+    </p>
+    <p>
+      Whether you need vibrant banners or sophisticated business cards, Arun Offset delivers print solutions that help your brand stand out — all handled with care, creativity, and a commitment to excellence.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services-list">
+      <div class="service-item">Offset Printing</div>
+      <div class="service-item">Screen Printing</div>
+      <div class="service-item">DTP Services</div>
+      <div class="service-item">Binding</div>
+      <div class="service-item">Business Card Design</div>
+      <div class="service-item">Banners & Poster Printing</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+      <label for="mobile">Mobile Number *</label>
+      <input type="tel" id="mobile" name="mobile" required placeholder="+91 9873120153" pattern="^\+?\d{10,15}$" />
+
+      <label>Services Interested In *</label>
+      <div class="services-checkboxes">
+        <label><input type="checkbox" name="service" value="Offset Printing" required /> Offset Printing</label>
+        <label><input type="checkbox" name="service" value="Screen Printing" /> Screen Printing</label>
+        <label><input type="checkbox" name="service" value="DTP Services" /> DTP Services</label>
+        <label><input type="checkbox" name="service" value="Binding" /> Binding</label>
+        <label><input type="checkbox" name="service" value="Business Card Design" /> Business Card Design</label>
+        <label><input type="checkbox" name="service" value="Banners & Poster Printing" /> Banners & Poster Printing</label>
+      </div>
+
+      <label for="message">Additional Message</label>
+      <textarea id="message" name="message" placeholder="Anything else you'd like to tell us?"></textarea>
+
+      <label><input type="checkbox" id="agree" required /> I agree to be contacted by Arun Offset</label>
+
+      <button type="submit" class="btn-primary">Contact Us</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="contact-info">
+    <p><i class="fas fa-phone"></i> Call/WhatsApp: <a href="tel:+918973120153">+91 89731 20153</a></p>
+    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:arunoffset03@gmail.com">arunoffset03@gmail.com</a></p>
+    <p><i class="fas fa-map-marker-alt"></i> 19-B, Rajangam Street, Anna Main Street, Bethaniyapuram, Madurai - 625016, Tamil Nadu</p>
+  </div>
+  <p>© 2025 Arun Offset. If call isn’t answered, please WhatsApp us.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
