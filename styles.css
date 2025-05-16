@@ -54,12 +54,9 @@
     color: #F28C28;
   }
 
-    #about h2 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
+  #about h2{
+    text-align: center;
+  }
   /* Mobile Nav */
   .menu-toggle {
     display: none;
